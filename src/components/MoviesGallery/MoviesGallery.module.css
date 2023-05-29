@@ -1,0 +1,32 @@
+.MoviesGallery {
+   
+    
+    max-width: calc(100vw - 48px);
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-gap: 16px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 0;
+    list-style: circle;
+    margin-left: 20px;
+    margin-right: auto;
+  }
+
+  .item{
+    padding-bottom: 5px;
+
+  }
+  .item:hover{
+    color: orangered;
+  }
+  .Link {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+  
+    
+}
+.Link:hover {
+    color: white;
+    background-color: orangered;
+  }
