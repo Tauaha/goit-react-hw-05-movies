@@ -23,7 +23,7 @@
 import axios from 'axios';
 const KEY = '5f2a66e63fa9a8139a0b7e8b9aba27ca';
 const URL = 'https://api.themoviedb.org/';
-const language = 'en';
+// const language = 'en';
 axios.defaults.baseURL = URL;
 // список найпопулярніших фільмів на сьогодні для створення колекції на головній сторінці
 export const dataMovieList = async () => {
